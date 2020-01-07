@@ -23,25 +23,20 @@ plt.show()
 ## Removing background from image using mask
 masked_image = np.copy(image_copy)
 masked_image[mask != 0] = [0, 0, 0]
-
 plt.imshow(masked_image)
 plt.show()
 
-## Loading new background
+## Loading new background and cropping image
 back_ground = cv2.imread('images/space_background.jpg')
 back_ground = cv2.cvtColor(back_ground,cv2.COLOR_BGR2RGB)
-
-#cropping image
 cropped_image = back_ground[0:image.shape[0], 0:image.shape[1]]
 
 #using mask to remove are of interest
 cropped_image[mask == 0] = [0, 0, 0]
-
 plt.imshow(cropped_image)
 plt.show()
 
 ## Merging both images
 new_image = cropped_image + masked_image
-
 plt.imshow(new_image)
 plt.show()
