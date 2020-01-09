@@ -126,7 +126,7 @@ def estimate_label(rgb_image):
 
     threshold_b = 100  # Threshold for average brightness
     threshold_h = 25  # Threshold for average hue
-    # ?is there any other variable that can be used to improve the accuracy?
+    # ?is there any other variable that can be used to improve the accuracy
     if (avg_b > threshold_b and avg_h > threshold_h):
         predicted_label = 1  # day
 
