@@ -12,7 +12,7 @@ The learing process is really interesting, these are what I have accomplish:
 - A day and Night image classifier that uses the H and V channel to classify the image, currently at 97.5% accuracy
 - Created an edge detection script that implemented fourier transform
 - Created a high pass filter for detecting edges. The filter takes in a Karnel and a gray image and then returns a binary edged image
--Implemented low pass filter
--Implemented Canny Edge Detection
--Implenented shape detection using Hough transformation
--Built a face detector using Haar Cascades
+- Implemented low pass filter
+- Implemented Canny Edge Detection
+- Implenented shape detection using Hough transformation
+- Built a face detector using Haar Cascades
