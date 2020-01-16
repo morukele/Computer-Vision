@@ -16,3 +16,6 @@ The learing process is really interesting, these are what I have accomplish:
 - Implemented Canny Edge Detection
 - Implenented shape detection using Hough transformation
 - Built a face detector using Haar Cascades
+- Studies feature detection and wrote some sample codes for contouring, corner detection and segmentation using K-mean
+- Learnt about the ORB algorithm and how to implement OpenCV's version of the algo for image recognition
+- Learnt about HOG algorithm
