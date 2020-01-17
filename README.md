@@ -19,3 +19,5 @@ The learing process is really interesting, these are what I have accomplish:
 - Studies feature detection and wrote some sample codes for contouring, corner detection and segmentation using K-mean
 - Learnt about the ORB algorithm and how to implement OpenCV's version of the algo for image recognition
 - Learnt about HOG algorithm
+- Learn about CNN and implemented a simple CNN using PyTorch
+- Exploring the FashionMNIST Data Set
