@@ -15,7 +15,7 @@ training_im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
 training_gray = cv2.cvtColor(training_im, cv2.COLOR_RGB2GRAY)
 
 # Loading Querry Image
-im2 = cv2.imread('./images/Team.jpeg')
+im2 = cv2.imread('./images/team.jpeg')
 querry_im = cv2.cvtColor(im2, cv2.COLOR_BGR2RGB)
 querry_gray = cv2.cvtColor(querry_im, cv2.COLOR_RGB2GRAY)
 
