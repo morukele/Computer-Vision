@@ -21,3 +21,4 @@ The learing process is really interesting, these are what I have accomplish:
 - Learnt about HOG algorithm
 - Learn about CNN and implemented a simple CNN using PyTorch
 - Exploring the FashionMNIST Data Set
+- Explored Single Shot Detector (SSD) and MobileNets for object detection
