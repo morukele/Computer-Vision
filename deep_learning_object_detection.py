@@ -6,7 +6,7 @@ import argparse
 
 
 def identifyObj(image):
-    #! A function that takes in an image and classifes it by drawing a bounding box
+    #! A function that takes in an RGB image and classifes it by drawing a bounding box
     # Initializing the list of class labels the MobileNet SSD was trained to
     CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
                "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
@@ -60,12 +60,13 @@ def identifyObj(image):
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
     # show the output image
-    cv2.imshow("Output", image)
-    cv2.waitKey(0)
+    plt.imshow(image)
+    plt.show()
 
 
 # load the input image
-image = cv2.imread('images/example_06.jpg')
-cv2.imshow("Input", image)
-cv2.waitKey(0)
+image = cv2.imread('images/wa_state_highway.jpg')
+image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+plt.imshow(image)
+plt.show()
 identifyObj(image)
