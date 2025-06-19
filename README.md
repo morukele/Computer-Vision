@@ -1,4 +1,4 @@
-# Coputer-Vision
+# Computer-Vision
 I am currently working with computer vision with an ultimate goal of building a sign language trainslator
 
 NB: I am using better comment extension, this might make some of my comments seem wired to you
